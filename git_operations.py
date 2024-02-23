@@ -41,3 +41,6 @@ def first_commit_and_push(repo_path):
     execute_git_command("git add .", cwd=repo_path)
     execute_git_command('git commit -m "Initial commit from script"', cwd=repo_path)
     execute_git_command("git push -u origin master", cwd=repo_path)
+
+
+# Path: ui.py
